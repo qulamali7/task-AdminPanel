@@ -1,0 +1,211 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 0px;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+#home h1 {
+  color: #ad7b0f;
+}
+#home a button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #fddb92;
+  color: #0f7c80;
+  transition: 0.5s all ease;
+}
+#home a button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  background-color: #ac8938;
+  color: #d1fdff;
+  font-size: 22px;
+}
+#home .cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+#home .cards .card {
+  background-color: #d1fdff;
+  border-radius: 20px;
+  transition: 0.5s all ease;
+}
+#home .cards .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#home .cards .card:hover p {
+  font-size: 22px;
+}
+#home .cards .card .card-img {
+  width: 200px;
+  height: 250px;
+}
+#home .cards .card .card-img img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#home .cards .card p {
+  color: #41300c;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 15px 0px;
+  text-align: center;
+}
+
+#AdminPanel {
+  background: #283c86;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #45a247, #283c86);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #45a247, #283c86);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+}
+#AdminPanel .buttons {
+  text-align: end;
+  width: 80%;
+  margin: auto;
+  padding: 40px 0px;
+}
+#AdminPanel .buttons button {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #45a247;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-right: 10px;
+  border: none;
+  transition: 0.5s all ease;
+}
+#AdminPanel .buttons button:hover {
+  cursor: pointer;
+  background-color: #056107;
+  font-size: 20px;
+}
+#AdminPanel table {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+#AdminPanel table td,
+#AdminPanel table th {
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+  padding: 8px 50px;
+}
+#AdminPanel table th {
+  font-size: 24px;
+  font-weight: 600;
+}
+#AdminPanel table td {
+  font-size: 20px;
+  font-weight: 500;
+}
+#AdminPanel table td a button {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #45a247;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  transition: 0.5s all ease;
+}
+#AdminPanel table td a button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  background-color: #056107;
+  font-size: 18px;
+}
+#AdminPanel table .table-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+#AdminPanel table .table-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#addUptade {
+  background: #23074d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cc5333, #23074d); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+#addUptade .add-update-user {
+  width: 40%;
+  margin: auto;
+  background-color: #cc5333;
+  min-height: 50vh;
+  padding: 40px;
+  border-radius: 10px;
+}
+#addUptade .add-update-user form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#addUptade .add-update-user form input {
+  outline: none;
+  margin: auto;
+  border-radius: 30px;
+  border: none;
+  width: 60%;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+#addUptade .add-update-user form button {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #23074d;
+  color: aliceblue;
+  margin: auto;
+  border-radius: 20px;
+  padding: 10px 30px;
+  width: 150px;
+  border: none;
+  transition: 0.5s all ease;
+}
+#addUptade .add-update-user form button:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  cursor: pointer;
+  background-color: #c6adec;
+  color: #23074d;
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */

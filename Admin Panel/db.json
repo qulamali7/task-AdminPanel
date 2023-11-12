@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Vito",
+      "job": "BOSS",
+      "img_url": "https://images.unsplash.com/photo-1508835277982-1c1b0e205603?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 1
+    },
+    {
+      "name": "Michael",
+      "job": "QA Tester",
+      "img_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D",
+      "id": 2
+    },
+    {
+      "name": "Angelina",
+      "job": "Back-end",
+      "img_url": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D",
+      "id": 3
+    },
+    {
+      "name": "Jane",
+      "job": "Back-end",
+      "img_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVvcGxlfGVufDB8fDB8fHww",
+      "id": 4
+    }
+  ]
+}
